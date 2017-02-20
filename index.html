@@ -1,0 +1,45 @@
+<html>
+<head>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+<script type="text/javascript" src="script.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+  
+<body>
+  <div id="title" class="text-center">
+    <h2>Change Dynamic List Option Elements</h2>
+    <h4>Choose Car Maker</h4>
+    <h5>and Model</h5>
+  </div>
+  
+  <div class="box">
+    <div class="calc">
+       Choose Car Make:
+      <select id="slct1" name="slct1" onchange="populate(this.id,'slct2')">
+        <option value=""></option>
+        <option value="Chevy">Chevy</option>
+        <option value="Dodge">Dodge</option>
+        <option value="Ford">Ford</option>
+      </select>
+      <hr />
+      Choose Car Model:
+      <select id="slct2" name="slct2"></select>
+      
+    </div> <!-- end of calc-->
+  </div> <!-- end of box -->
+  
+  
+  <div class="row text-center"> <!-- for footer -->
+      <h5><a href="http://www.eleftheriabatsou.com" target="_blank">Eleftheria Batsou</a> | <a href="http://codepen.io/EleftheriaBatsou" target="_blank">Projects</a></h5>
+    </div> <!-- end footer -->
+  
+</body>
+</html>
+
+
+
